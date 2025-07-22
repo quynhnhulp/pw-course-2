@@ -14,7 +14,7 @@
 - Repository: Các commit (phiên bản)
 
 **Key takeaways**: Các câu lênh thường dùng
-1. Khởi tạo thư mục được quản lý ởi Git: git init
+1. Khởi tạo thư mục được quản lý bởi Git: git init
 2. Cấu hình git
 ![alt text](image-2.png)
 3. Thêm file vào vùng staging:
@@ -103,3 +103,16 @@ for (<khởi tạo>; <điều kiện đúng>; <điều kiện tăng){//code
 
 
 ## Kiến thức bổ sung để làm bài
+1. Toán tử chia dư (%): % sẽ trả về phần dư của phép tính
+- Nếu là số lẻ, chia dư cho 2 = 1: x % 2 === 1
+- Nếu là số chẵn, chia dư cho 2 = 0: x % 2 === 0
+2. In kết hợp giá trị chuỗi và biến với console.log()
+- console.log("message")
+- console.log(variable_name)
+- console.log("message" + variable_name)
+- console.log("message: , variable_name)
+3. Nối chuỗi với toán tử +  
+Để nói chuỗi từ hai biến, ta sử dụng dấu cộng (+):
+- const str1 = "Hello";
+- const str2 = "Playwright Viet Nam";
+- console.log(str1 + str2); // HelloPlaywright Viet Nam
