@@ -1,0 +1,16 @@
+1. Giải thích các câu lệnh:
+git init: Khởi tạo thư mục được quản lý bởi git
+git add <file_name>: Thêm 1 file
+git add .: Thêm toàn bộ
+git commit -m "message": tạo 1 commit mới kèm theo một ghi chú cho commit đó
+
+2. Liệt kê các file theo từng vùng
+- Working Directory
+file1, file2, file3
+file2, file3
+
+- Staging Area
+file1
+
+- Repository
+file1
