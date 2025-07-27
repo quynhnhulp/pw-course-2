@@ -1,0 +1,11 @@
+1. Giải thích các câu lệnh
+git commit --amend: Thay đổi commit message bằg cách tự chỉnh trong chế độ insert 
+git commit --amend -m”<message>”: Thay đổi commit với message mới trực tiếp
+git restore --staged <file>: Đưa file từ vùng staging về working directory
+git reset HEAD~1: Đưa file từ vùng repository về working directory lần commit trước đó
+
+2. Liệt kê các file theo từng vùng và commit tương ứng
+- Working Directory: file2, 3 
+- Staging Area: trống
+- Repository: file1
+git commit -m "add file"
