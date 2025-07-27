@@ -169,3 +169,62 @@ function printArrChar(studentArr){
 }
 
 printArrChar(studentArr);
+
+## Kiến thức bổ sung: 
+### Git
+1. Checkout về một revision bất kì
+![alt text](image-1.png)
+
+### Javascript
+1. object với const
+
+Như ta đã biết, khi dùng const (hằng số), thì giá trị sẽ không thay đổi được. Ví dụ:
+const a = 10;
+a = 15; // lỗi
+Đối với object cũng vậy, nếu bạn thay cả object bằng một object mới, bạn cũng sẽ gặp lỗi. Ví
+dụ:
+const student = {“name”: “alex”, “age”: 20}
+student = {“name”: “Nagi”, “age”: 18} // lỗi
+Tuy nhiên, nếu bạn chỉ thay đổi các thuộc tính của object thì hoàn toàn hợp lệ. Ví dụ mình sẽ chỉ thay giá trị của name trong object student:
+
+const student = {“name”: “alex”, “age”: 20}
+student.name = “Nagi”; // Hợp lệ
+
+2. Thêm thuộc tính vào Object
+
+Để thêm thuộc tính mới vào object, chúng ta chỉ cần dùng dấu . hoặc ngoặc vuông [] để định nghĩa thuộc tính mới. Ví dụ:
+let bike = {
+make: 'Yamaha',
+model: 'YZF-R3'
+};
+
+bike.color = “Blue”;
+bike[“price new”] = 100;
+
+console.log(bike);
+{make: 'Yamaha', model: 'YZF-R3', color: 'Blue', ‘price new’ : 100}
+
+3. Xóa thuộc tính của Object:
+Để xóa thuộc tính của object, chúng ta dùng hàm delete:
+let employee = {
+name: 'Le Van C',
+age: 30,
+department: 'HR'
+};
+
+delete employee.age;
+console.log(employee);
+
+Kết quả:
+{name: 'Le Van C', department: 'HR'}
+
+### Loops
+1. Hàm push
+
+Để thêm phần tử vào mảng, ta dùng hàm push
+- Ví dụ:
+const arr = [1,2];
+arr.push(3);
+console.log(arr);
+// Kết quả in ra
+[1, 2, 3]
