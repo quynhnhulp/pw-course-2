@@ -1,0 +1,5 @@
+1. Cấu trúc DOM cơ bản của một trang web bao gồm các thẻ gì?
+Cấu trúc DOM cơ bản của một trang web bao gồm các thẻ: html, head và body (chứa những thẻ: div, script, a)
+2. Hãy mô tả cấu trúc html của 1 bảng (table)
+cấu trúc html của 1 bảng (table): thead (chứa thẻ tr, và thẻ tr chứa những thẻ th), tbody (chứa những thẻ tr)
+3. Push bài tập lên GitHub.
