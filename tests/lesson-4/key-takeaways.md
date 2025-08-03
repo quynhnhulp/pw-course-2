@@ -378,3 +378,24 @@ K
 0
 2
 4
+
+======================
+
+1. Chuyển đổi hệ thập phân sang hệ thập lục phân
+Trong JavaScript, bạn có thể sử dụng phương thức toString(16) để chuyển đổi một số thập phân sang hệ thập lục phân. Ví dụ:
+```javascript
+let decimalNumber = 120;
+let hexadecimalNumber = decimalNumber.toString(16);
+console.log(hexadecimalNumber); // Output: 78
+```
+2. Hàm toLowerCase và toUpperCase trong JavaScript
+toLowerCase(): Chuyển đổi chuỗi thành chữ thường.
+toUpperCase(): Chuyển đổi chuỗi thành chữ hoa.
+Ví dụ:
+```javascript
+let text = "K16 Challenge";
+let lowercaseText = text.toLowerCase();
+let uppercaseText = text.toUpperCase();
+console.log(lowercaseText); // Output: k16 challenge
+console.log(uppercaseText); // Output: K16 CHALLENGE
+```

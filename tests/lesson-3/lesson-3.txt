@@ -9,3 +9,5 @@ git reset HEAD~1: Đưa file từ vùng repository về working directory lần 
 - Staging Area: trống
 - Repository: file1
 git commit -m "add file"
+
+3. 

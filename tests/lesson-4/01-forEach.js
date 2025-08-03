@@ -30,3 +30,4 @@ numbers.forEach((num) => {
 });
 
 console.log("Mảng mới với mỗi phần tử nhân đôi:", doubledNumbers);
+
